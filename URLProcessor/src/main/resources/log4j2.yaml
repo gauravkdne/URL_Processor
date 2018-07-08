@@ -9,7 +9,7 @@ Configuration:
       PatternLayout:
         pattern: '%d{HH:mm:ss:SSSSSSS a} [%t] %-5level %logger{36} - %msg%n%n'
       name: File
-      fileName: logs/url_processor.log
+      fileName: output/logs/url_processor.log
   Loggers:
     Root:
       AppenderRef:

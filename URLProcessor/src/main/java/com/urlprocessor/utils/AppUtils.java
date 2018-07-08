@@ -18,7 +18,7 @@ import org.apache.logging.log4j.Logger;
 public class AppUtils {
 	private static final Logger LOGGER = LogManager.getLogger(AppUtils.class);
 
-	private static final String FILENAME = "url_statistics.txt";
+	private static final String FILENAME = "output/url_statistics.txt";
 
 	public static void writeToFile(Map<String, Integer> wordMap) {
 		writeToFile(wordMap, null);

@@ -1,0 +1,36 @@
+12:32:29:0000205 PM [main] INFO  com.urlprocessor.app.App - 
+
+
+	### Processing URLs parallely ###
+
+
+12:32:29:0000209 PM [pool-2-thread-2] INFO  com.urlprocessor.http.UrlProcessor - 
+pool-2-thread-2(Start) - http://oath.com  at 12:32:29:0000209
+
+12:32:29:0000209 PM [pool-2-thread-1] INFO  com.urlprocessor.http.UrlProcessor - 
+pool-2-thread-1(Start) - http://google.com  at 12:32:29:0000209
+
+12:32:29:0000700 PM [pool-2-thread-1] INFO  com.urlprocessor.http.UrlProcessor - 
+pool-2-thread-1(End) - http://google.com  at 12:32:29:0000700
+
+12:32:29:0000988 PM [pool-2-thread-2] INFO  com.urlprocessor.http.UrlProcessor - 
+pool-2-thread-2(End) - http://oath.com  at 12:32:29:0000988
+
+12:32:29:0000997 PM [main] INFO  com.urlprocessor.app.App - 
+
+
+	### Processing URLs asynchronously ###
+
+
+12:32:29:0000999 PM [pool-3-thread-1] INFO  com.urlprocessor.http.UrlProcessor - 
+pool-3-thread-1(Start) - http://google.com  at 12:32:29:0000998
+
+12:32:30:0000134 PM [pool-3-thread-1] INFO  com.urlprocessor.http.UrlProcessor - 
+pool-3-thread-1(End) - http://google.com  at 12:32:30:0000134
+
+12:32:30:0000135 PM [pool-3-thread-1] INFO  com.urlprocessor.http.UrlProcessor - 
+pool-3-thread-1(Start) - http://oath.com  at 12:32:30:0000135
+
+12:32:30:0000494 PM [pool-3-thread-1] INFO  com.urlprocessor.http.UrlProcessor - 
+pool-3-thread-1(End) - http://oath.com  at 12:32:30:0000494
+

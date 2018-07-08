@@ -1,0 +1,66 @@
+
+		### Parallel Processing Statistics ###
+
+# Total number of words: 1394
+# Top 10 prevalent words: 
+
+	a: 419
+	div: 255
+	class: 244
+	com: 211
+	href: 185
+	h: 183
+	item: 176
+	li: 174
+	f: 173
+	b: 168
+
+
+# URL Processing Statistics #
+
+1.	URL: http://oath.com
+	Thread: pool-2-thread-2
+	CPU Processing Time: 240723000 ns
+	Word Count: 9068
+
+2.	URL: http://google.com
+	Thread: pool-2-thread-1
+	CPU Processing Time: 180889000 ns
+	Word Count: 1674
+
+# End of URL Processing Statistics #
+
+
+
+		### Asynchronous Processing Statistics ###
+
+# Total number of words: 1394
+# Top 10 prevalent words: 
+
+	a: 419
+	div: 255
+	class: 244
+	com: 211
+	href: 185
+	h: 183
+	item: 176
+	li: 174
+	f: 173
+	b: 168
+
+
+# URL Processing Statistics #
+
+1.	URL: http://oath.com
+	Thread: pool-3-thread-1
+	CPU Processing Time: 46806000 ns
+	Word Count: 9068
+
+2.	URL: http://google.com
+	Thread: pool-3-thread-1
+	CPU Processing Time: 12836000 ns
+	Word Count: 1657
+
+# End of URL Processing Statistics #
+
+
